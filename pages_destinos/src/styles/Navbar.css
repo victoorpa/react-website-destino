@@ -1,0 +1,46 @@
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-weight: bold;
+    width: 130px;
+    height: 35px;
+}
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+}
+.menu .navbar ul li a:hover {
+    color: #099fa6;
+}
+.icons {
+    display: flex;
+}
+.icons i {
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.icons i:hover {
+    color: #099fa6;
+}
+#menu {
+    display: none;
+}
+.menu-icono {
+    width: 25px;
+}
